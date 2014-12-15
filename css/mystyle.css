@@ -1,7 +1,7 @@
 #background {
-    background: url("../images/cover.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../images/symphony.png") left top repeat;
+    /*background-repeat: repeat-x;*/
+    /*background-size: cover;*/
     padding-top: 100px;
     padding-bottom: 75px;
     vertical-align: middle;
@@ -22,6 +22,11 @@ body {
 
 a {
     color: #0BACD6;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 34pt;
 }
 .starter-template {
     padding: 40px 15px;
@@ -51,7 +56,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: white ;
+    color: black ;
 }
 
 .twitter-roll {
