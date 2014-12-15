@@ -1,0 +1,41 @@
+#background {
+    background: #FFFFFF url("../images/cover.jpg") no-repeat;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    vertical-align: middle;
+    background-attachment: local;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-color: white;
+}
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.buttons-row {
+    white-space: nowrap;
+    width: 1000px;
+    text-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-row div {
+    width: 30%;
+    display: inline-block;
+}
+
+.social-icon {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.samiya-header {
+}
