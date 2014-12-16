@@ -2,14 +2,14 @@
     background: url("../images/symphony.png") left top repeat;
     /*background-repeat: repeat-x;*/
     /*background-size: cover;*/
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
     white-space: nowrap;
     font-color: white;
-    position:fixed;
+    /*position:fixed;*/
     left:0;
     top:0;
     width:100%;
@@ -25,9 +25,109 @@ a {
 }
 
 h1 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", sans-serif;
     font-size: 34pt;
+    font-weight: 300;
+    color: #333333;
 }
+h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 27pt;
+    font-weight: 300;
+    color: #333333;
+}
+h3 {
+    font-family: "Arial", sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    color: #333333;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eeeeee;
+    background-color: #eeeeee;
+}
+
+ul li { 
+    color: #0BACD6;
+}
+ul li span {
+    color: #333333;
+}
+.language-button {
+    background-color: #0BACD6;
+    color: white;
+}
+
+.company {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: visible;
+}
+
+.company-logo {
+    width: 30%;
+    height: 100%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    top: 10px;
+    position: relative;
+}
+.company-info {
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*white-space: pre;*/
+    font-size: 18px;
+}
+.company-position {
+    color: #0BACD6;
+}
+.resume-div {
+    white-space: nowrap;
+    width: 100%;
+    overflow: auto;
+}
+.resume-line {
+    border-left: 3px solid #0BACD6;
+    width: 5%;
+    display: inline-block;
+}
+
+.we-term {
+    text-align: right;
+    width: 35%;
+    display: inline-block;
+}
+
+.we-info {
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+}
+
+.outer-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.left-center {
+    text-align: left;
+}
+
 .starter-template {
     padding: 40px 15px;
     text-align: center;
@@ -39,6 +139,8 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    /*position: fixed;*/
+    bottom: 25px;
 }
 
 .buttons-row div {
@@ -56,13 +158,35 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: black ;
+    color: #333333 ;
+}
+
+
+.information-text {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-button {
+    background-color: #0BACD6;
+}
+
+.information-text ul{
+    display: inline-block;
 }
 
 .twitter-roll {
     background-image: url('../images/twitterlogo.png');
 }
+
+.twitter-roll:hover {
+    background-image: url('../images/twitterlogo.png');
+}
 .social-roll {
+
+    
     
     border-radius: 50%;
     -webkit-transition: all ease 0.3s;
@@ -72,16 +196,76 @@ h1 {
     transition: all ease 0.3s;
     max-width: 50px;
     max-height: 50px;
+    left: 0px;
+    display: inline-block;
+    position:relative;
+    top:0px;
 }
 .social-roll:hover {
+
+    /*-moz-animation-name: spin;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-duration: 0.5s;
+    -webkit-animation-name: spin;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 0.5s;    
+    -ms-animation-name: spin;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -ms-animation-duration: 0.5s;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 0.5s;*/
+
     /*box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.8);*/
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
     -ms-transform:rotate(360deg);
-    transform:rotate(360deg);
+    transform:rotate(360deg) ;
     max-width: 50px;
     max-height: 50px;
+    left: 0px;
+    display: inline-block;
+    position:relative;
+    top:0px;
+}
+
+keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+    }
 }
 
 .social-popout {
