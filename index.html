@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Samiya Akhtar</title>
 
     <!-- Bootstrap core CSS -->
@@ -22,212 +23,67 @@
     <![endif]-->
   </head>
   <body>
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="display: none; height: 0px;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
     <!-- starts here -->
 
     <div class="tab-content">
-        <div class="samiya-header" id="home">
-            <div id="background">
+		<div class="samiya-header" id="home">
+			<div id="background" style="position:fixed; background: url('../images/symphony.png') left top repeat;">
+				<h1>Samiya Akhtar</h1>
+				<p class="lead">3B Software Engineering <br />University of Waterloo</p>
+				<br /><br /><br />
 
-                <div id="divInformation" class="information-text">
-                    <a href="#about" id="btnAbout">About</a>&nbsp;&nbsp;
-                    <a href="#courses" id="btnCourses">Courses</a>&nbsp;&nbsp;
-                    <a href="#workexperience" id="btnWE">Work Experience</a>&nbsp;&nbsp;
-                    <a href="#contact" id="btnContact">Contact</a>&nbsp;&nbsp;
-                </div><br />
-
-                <h1>Samiya Akhtar</h1>
-                <p class="">Student, Developer, Stereotype-breaker</p>
-                <br />
-
-                <img src="../images/samiya.jpg" class="circle-img" />
-                <br /><br />
-
-
-                
-                <div id="divAbout" name="about">
-                    <h2>About</h2>
-                    <div class="outer-center">
-                        <div class="left-center">
-                            I'm a 4th year software engineering student at the University of Waterloo. <br />
-                            I am passionate about coding, exploring and meeting new people.  
-                            <br />I have experience coding in the following languages:
-
-                            <div class="graph-outer">
-                                <div class="graph-left"> 
-                                    <div class="graph-vertical"></div>
-                                </div>
-                                <div class="graph-right"> 
-                                    <div class="graph-language" style="width: 250px;">C/C++</div>
-                                    <div class="graph-language" style="width: 250px;">JavaScript</div>
-                                    <div class="graph-language" style="width: 220px;">Java</div>
-                                    <div class="graph-language" style="width: 175px;">Python</div>
-                                    <div class="graph-language" style="width: 150px;">C#</div>
-                                    <div class="graph-language" style="width: 100px;">Ruby</div>
-                                    <div class="graph-language" style="width: 100px;">PHP</div>
-                                    <div class="graph-language" style="width: 100px;">Shell</div>
-                                    <div class="graph-language" style="width: 75px;">Objective-C</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><hr>
-
-                <br /><br />
-                <div id="divCourses" name="courses">
-                    <h2>Courses</h2>
-                    <div class="outer-center">
-                        <div class="left-center">
-                            CS 458: Computer Security and Privacy<br />
-                            SE 463: Software Requirements and Specifications<br />
-                            CS 343: Concurrent and Parallel Programming<br />
-                            CS 348: Introduction to Databases<br />
-                            CS 341: Algorithms<br />
-                            CS 349: User Interfaces<br />
-                            SE 350: Operating Systems<br />
-                            SE 380: Introduction to feedback control<br />
-                            CS 240: Data structors and Algorithms<br />
-                            CS 247: Software Abstraction and Specification<br />
-                            MATH 239: Combinatorics<br />
-                            CS 241: Foundations of Sequential Programs<br />
-                            ECE 222: Digital Computers<br />
-                            SE 212: Logic and Computation<br />
-                            .. and a few others. 
-
-                        </div>
-                    </div>
-                </div><hr>
-
-                <br /><br />
-                <div id="divWE" name="workexperience">
-                    <h2>Work Experience</h2>
-                    <div class="company">
-                        <h3>Christie Digital Systems</h3><br />
-                        <div class="company-logo">
-                            <img src="../images/christie.png" />
-                        </div>
-                        <div class="lead company-info">
-                            <div class="company-position">
-                                Application Software Developer<br />
-                            </div>
-
-                            <ul>
-                                <li>
-                                    <span>
-                                    Added features to test pattern, warping and blending interfaces in <a href="http://www.christiedigital.com/en-us/3d/products-and-solutions/3d-projection-solutions/christie-twist/pages/default.aspx">Twist</a> and <a href="http://www.christiedigital.com/en-us/3D/products-and-solutions/3d-projection-solutions/christie-autocal/Pages/default.aspx">Autocal</a>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Created a Keystone Warping application that performs a perspective transform <br />
-                                    by calculating a warp factor for internal points based on corner positions
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="btn-group btn-group-xs " role="group" >
-                                <button type="button" class="btn btn-default language-button">C++</button>
-                                <button type="button" class="btn btn-default language-button">Qt</button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="company">
-                        <h3>Katlyn Vehicle Systems</h3><br />
-                        <div class="company-logo">
-                            <img src="../images/katlyn.jpg" />
-                        </div>
-                        <div class="lead company-info">
-                            <div class="company-position">
-                                Web Developer<br />
-                            </div>
-
-                            <ul>
-                                <li>
-                                    <span>
-                                    End-to-end system design and project management of Air Canada Cargo's<br /> iRamp documentation system 
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Built a management system that would enable airlines to prioritize<br /> cargo items once they arrive at a destination
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Developed an internal messaging system for Air Canada Cargo that communicated<br /> with airport vehicles via TCP
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Created an application that provides latest location updates from airport<br />
-                                     vehicles by collecting GPS locations; editor tools for configuration settings<br />
-                                     like fuel, accelerometer and inspection results
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Contributed to web and internal applications for Air Canada Cargo's work order<br />
-                                     dispatching system operating in international airports of Canada
-                                    </span>
-                                </li>
-                            </ul>                           
-                            <div class="btn-group btn-group-xs " role="group" >
-                                <button type="button" class="btn btn-default language-button">C#</button>
-                                <button type="button" class="btn btn-default language-button">C++</button>
-                                <button type="button" class="btn btn-default language-button">JavaScript</button>
-                                <button type="button" class="btn btn-default language-button">HTML</button>
-                                <button type="button" class="btn btn-default language-button">CSS</button>
-                            </div>
-                        </div>
-                    </div>
-                </div><hr>
-
-                <br /><br />
-                <div id="divContact" name="contact">
-                    <h2>Contact</h2>
-                    <div class="outer-center">
-                        <div class="lead left-center">
-                            
-                        </div>
-                    </div>
-
-                    <div class="buttons-row">
-                        <div class="social-roll">
-                            <a type="button" href="mailto:me@samiya.ca"><img src="../images/mail.png"/></a>
-                        </div>
-                        <div class="social-roll">
-                            <a type="button" href="https://www.linkedin.com/in/samiyaakhtar"><img id="linkedin" src="../images/linkedin.png"/></a>
-                        </div>
-                        <div class="social-roll">
-                            <a type="button" href="https://github.com/samiyaakhtar">
-                            <img src="../images/github.png"/></a>
-                        </div>
-                        <div class="social-roll">
-                            <a type="button" href="https://twitter.com/SamiyaAkhtar">
-                            <img id="imgTwitter" src="../images/twitter.png" onhover="showimage('imgTwitter', '../images/twitter.png')"/></a>
-                        </div>
-                        <div class="social-roll">
-                            <a type="button" href="http://instagram.com/samiyaakhtar">
-                            <img id="imgInstagram" src="../images/instagram.png"/></a>
-                        </div>
-                    </div>
-                </div>
-
-                
+				<div class="buttons-row">
+					<div class="social-roll">
+						<a type="button" href="mailto:me@samiya.ca"><img src="../images/mail.png"/></a>
+					</div>
+					<div class="social-roll">
+						<a type="button" href="https://www.linkedin.com/in/samiyaakhtar"><img id="linkedin" src="../images/linkedin.png"/></a>
+					</div>
+					<div class="social-roll">
+						<a type="button" href="https://github.com/samiyaakhtar">
+						<img src="../images/github.png"/></a>
+					</div>
+					<div class="social-roll">
+						<a type="button" href="https://twitter.com/SamiyaAkhtar">
+						<img id="imgTwitter" src="../images/twitter.png" onhover="showimage('imgTwitter', '../images/twitter.png')"/></a>
+					</div>
+	        	</div>
 
 
-                <!-- <br /><br /><div class="lead" style="margin-top: 120px;">This website is under development!</div> -->
-            </div>
+				<!-- <br /><br /><div class="lead" style="margin-top: 120px;">This website is under development!</div> -->
+			</div>
 
-            
+			
         </div>
       <!-- Ends here -->
 
     <!-- <div class="container"> -->
 
-        <!-- <div class="starter-template">
-            <h1>Samiya Akhtar</h1>
-            <p class="lead">This website is under development!</p>
-        </div> -->
+		<!-- <div class="starter-template">
+			<h1>Samiya Akhtar</h1>
+			<p class="lead">This website is under development!</p>
+		</div> -->
 
     </div><!-- /.container -->
 
@@ -235,35 +91,24 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   </body>
 
 </html>
 
 <script type="text/javascript">
-    $("#btnAbout").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divAbout").offset().top},
-            'slow');
-    });
-    $("#btnCourses").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divCourses").offset().top},
-            'slow');
-    });
-    $("#btnWE").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divWE").offset().top},
-            'slow');
-    });
-    $("#btnContact").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divContact").offset().top},
-            'slow');
-    });
+	function showimage(id, image) {
+		document.getElementById(id).innerHTML = "<img id=\"" + id + "\" class=\"social-roll\" src=\"" + image + "\" onhover=\"showimage('" + id + "', '" + image + "')\"/>";
 
+		$(id).on({
+			 "mouseover" : function() {
+			    this.src = image;
+			  },
+			  "mouseout" : function() {
+			    this.src = image;
+			  }
+			});
+	}
 </script>
