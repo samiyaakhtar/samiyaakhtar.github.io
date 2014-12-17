@@ -31,6 +31,7 @@
                 <div id="divInformation" class="information-text">
                     <a href="#about" id="btnAbout">About</a>&nbsp;&nbsp;
                     <a href="#courses" id="btnCourses" style="display: none;">Courses&nbsp;&nbsp;</a>
+                    <a href="#interests" id="btnInterests">Interests&nbsp;&nbsp;</a>
                     <a href="#workexperience" id="btnWE">Work Experience</a>&nbsp;&nbsp;
                     <a href="#contact" id="btnContact">Contact</a>&nbsp;&nbsp;
                 </div><br />
@@ -46,9 +47,7 @@
                     <h2>About</h2>
                     <div class="outer-center">
                         <div class="left-center">
-                            I'm a 3rd year software engineering student at the University of Waterloo. <br />
-                            I am passionate about coding, exploring and meeting new people.  
-                            <br />I have experience coding in the following languages:
+                            I'm a 3rd year software engineering student at the University of Waterloo. I am passionate about coding, exploring and meeting new people. I have experience coding in the following languages:
 
                             <div class="graph-outer">
                                 <div class="graph-left"> 
@@ -60,10 +59,10 @@
                                     <div class="graph-language" style="width: 220px;">Java</div>
                                     <div class="graph-language" style="width: 175px;">Python</div>
                                     <div class="graph-language" style="width: 150px;">C#</div>
-                                    <div class="graph-language" style="width: 100px;">Ruby</div>
                                     <div class="graph-language" style="width: 100px;">PHP</div>
                                     <div class="graph-language" style="width: 100px;">Shell</div>
                                     <div class="graph-language" style="width: 75px;">Objective-C</div>
+                                    <div class="graph-language" style="width: 75px;">Ruby</div>
                                 </div>
                             </div>
                         </div>
@@ -93,6 +92,16 @@
 
                         </div>
                     </div>
+                </div>
+
+
+                <div id="divInterests" name="interests" ><br /><br /><hr>
+                    <h2>Interests</h2>
+                    <div class="outer-center">
+                        <div class="left-center">
+                            I occasionally like to cook Arabian, Italian and South Asian food. I also like to try henna designs on hands occasionally because their intricacy interests me. I like to play cricket and badminton, but ever since I came to Canada I got no company to play cricket. 
+                        </div>
+                    </div>
                 </div><hr>
 
                 
@@ -116,7 +125,7 @@
                                 </li>
                                 <li>
                                     <span>
-                                    Created a Keystone Warping application that performs a perspective transform <br />
+                                    Created a Keystone Warping application that performs a perspective transform
                                     by calculating a warp factor for internal points based on corner positions
                                     </span>
                                 </li>
@@ -141,29 +150,29 @@
                             <ul>
                                 <li>
                                     <span>
-                                    End-to-end system design and project management of Air Canada Cargo's<br /> iRamp documentation system 
+                                    End-to-end system design and project management of Air Canada Cargo's iRamp documentation system 
                                     </span>
                                 </li>
                                 <li>
                                     <span>
-                                    Built a management system that would enable airlines to prioritize<br /> cargo items once they arrive at a destination
+                                    Built a management system that would enable airlines to prioritize cargo items once they arrive at a destination
                                     </span>
                                 </li>
                                 <li>
                                     <span>
-                                    Developed an internal messaging system for Air Canada Cargo that communicated<br /> with airport vehicles via TCP
+                                    Developed an internal messaging system for Air Canada Cargo that communicated with airport vehicles via TCP
                                     </span>
                                 </li>
                                 <li>
                                     <span>
-                                    Created an application that provides latest location updates from airport<br />
-                                     vehicles by collecting GPS locations; editor tools for configuration settings<br />
+                                    Created an application that provides latest location updates from airport
+                                     vehicles by collecting GPS locations; editor tools for configuration settings
                                      like fuel, accelerometer and inspection results
                                     </span>
                                 </li>
                                 <li>
                                     <span>
-                                    Contributed to web and internal applications for Air Canada Cargo's work order<br />
+                                    Contributed to web and internal applications for Air Canada Cargo's work order
                                      dispatching system operating in international airports of Canada
                                     </span>
                                 </li>
@@ -261,6 +270,11 @@
     $("#btnContact").click(function() {
         $('html,body').animate({
             scrollTop: $("#divContact").offset().top},
+            'slow');
+    });
+    $("#btnInterests").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#divInterests").offset().top},
             'slow');
     });
 

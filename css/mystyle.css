@@ -160,10 +160,12 @@ ul li span {
     left: 50px;
     display: inline-block;
     word-wrap: break-word;
+    white-space: initial;
     overflow-x: hidden;
     overflow-y: auto;
     /*white-space: pre;*/
     font-size: 18px;
+    padding-right: 220px;
 }
 .company-position {
     color: #0BACD6;
@@ -200,6 +202,8 @@ ul li span {
 .left-center {
     text-align: left;
     margin-left: 50px;
+    white-space: initial;
+    word-wrap: break-word;
 }
 
 .starter-template {
