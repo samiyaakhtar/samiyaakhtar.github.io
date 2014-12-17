@@ -14,7 +14,6 @@
     height: 100%;
 }
 
-
 body {
     /* padding-top: 50px; */
     font-size: 18px;
@@ -22,6 +21,7 @@ body {
 
 a {
     color: #0BACD6;
+    cursor: pointer;
 }
 
 h1 {
@@ -50,6 +50,17 @@ hr {
     border-top: 2px solid #eeeeee;
     background-color: #eeeeee;
     width: 65%;
+}
+
+//small screen sizes
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
 }
 
 ul li { 
@@ -141,6 +152,7 @@ ul li span {
     margin-right: auto;
     text-align: center;
     overflow: visible;
+    float: left;
 }
 
 .company-logo {
@@ -151,6 +163,7 @@ ul li span {
     vertical-align: top;
     top: 10px;
     position: relative;
+    float: left;
 }
 .company-info {
     width: 60%;
@@ -166,6 +179,7 @@ ul li span {
     /*white-space: pre;*/
     font-size: 18px;
     padding-right: 220px;
+    float: left;
 }
 .company-position {
     color: #0BACD6;

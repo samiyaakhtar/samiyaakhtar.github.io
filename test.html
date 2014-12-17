@@ -24,20 +24,20 @@
   <body>
     <!-- starts here -->
 
-    <div class="tab-content">
+    <div class="container">
         <div class="samiya-header" id="home">
             <div id="background">
 
                 <div id="divInformation" class="information-text">
-                    <a href="#about" id="btnAbout">About</a>&nbsp;&nbsp;
-                    <a href="#courses" id="btnCourses" style="display: none;">Courses&nbsp;&nbsp;</a>
-                    <a href="#interests" id="btnInterests">Interests&nbsp;&nbsp;</a>
-                    <a href="#workexperience" id="btnWE">Work Experience</a>&nbsp;&nbsp;
-                    <a href="#contact" id="btnContact">Contact</a>&nbsp;&nbsp;
+                    <a id="btnAbout">About</a>&nbsp;&nbsp;
+                    <a id="btnCourses" style="display: none;">Courses&nbsp;&nbsp;</a>
+                    <!-- <a href="#interests" id="btnInterests">Interests&nbsp;&nbsp;</a> -->
+                    <a id="btnWE">Work Experience</a>&nbsp;&nbsp;
+                    <a id="btnContact">Contact</a>&nbsp;&nbsp;
                 </div><br />
 
                 <h1>Samiya Akhtar</h1>
-                <p class="">Student, Developer, Stereotype-breaker</p>
+                <p class="">Student, Developer</p>
                 <br />
 
                 <img src="../images/samiya.jpg" class="circle-img" />
@@ -47,7 +47,7 @@
                     <h2>About</h2>
                     <div class="outer-center">
                         <div class="left-center">
-                            I'm a 3rd year software engineering student at the University of Waterloo. I am passionate about coding, exploring and meeting new people. I have experience coding in the following languages:
+                            I'm a 3rd year software engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am passionate about coding, exploring and meeting new people. I occasionally like to cook Arabian, Italian and South Asian food. I also like to do henna designs and nail art because their intricacy interests me. I have experience coding in the following languages:
 
                             <div class="graph-outer">
                                 <div class="graph-left"> 
@@ -95,24 +95,24 @@
                 </div>
 
 
-                <div id="divInterests" name="interests" ><br /><br /><hr>
+               <!--  <div id="divInterests" name="interests" ><hr><br />
                     <h2>Interests</h2>
                     <div class="outer-center">
                         <div class="left-center">
-                            I occasionally like to cook Arabian, Italian and South Asian food. I also like to try henna designs on hands occasionally because their intricacy interests me. I like to play cricket and badminton, but ever since I came to Canada I got no company to play cricket. 
+                            
                         </div>
                     </div>
-                </div><hr>
+                </div><hr> -->
 
                 
-                <div id="divWE" name="workexperience"><br />
+                <div id="divWE" name="workexperience"><hr><br />
                     <h2>Work Experience</h2>
                     <div class="company">
                         <h3>Christie Digital Systems</h3><br />
-                        <div class="company-logo">
-                            <img src="../images/christie.png" />
+                        <div class=" company-logo">
+                            <img class="desktop-only" src="../images/christie.png" />
                         </div>
-                        <div class="lead company-info">
+                        <div class=" lead company-info">
                             <div class="company-position">
                                 Application Software Developer<br />
                             </div>
@@ -125,7 +125,7 @@
                                 </li>
                                 <li>
                                     <span>
-                                    Created a Keystone Warping application that performs a perspective transform
+                                    Created a Keystone Warping application that performs a <a href="http://en.wikipedia.org/wiki/3D_projection#Perspective_projection">perspective transform</a>
                                     by calculating a warp factor for internal points based on corner positions
                                     </span>
                                 </li>
@@ -140,9 +140,9 @@
                     <div class="company">
                         <h3>Katlyn Vehicle Systems</h3><br />
                         <div class="company-logo">
-                            <img src="../images/katlyn.jpg" />
+                            <img class="desktop-only" src="../images/katlyn.jpg" />
                         </div>
-                        <div class="lead company-info">
+                        <div class=" lead company-info">
                             <div class="company-position">
                                 Web Developer<br />
                             </div>
@@ -277,5 +277,19 @@
             scrollTop: $("#divInterests").offset().top},
             'slow');
     });
+
+    function isMobile() {
+        try{ document.createEvent("TouchEvent"); return true; }
+        catch(e){ return false; }
+    }
+
+    if(isMobile()) {
+        var elems = document.getElementsByTagName('desktop-only'), i;
+        for (i in elems) {
+            
+            elems[i].innerHTML = '';
+            
+        }
+    }
 
 </script>
