@@ -107,12 +107,12 @@
                 
                 <div id="divWE" name="workexperience"><hr><br />
                     <h2>Work Experience</h2>
-                    <div class="company">
+                    <div class="company row">
                         <h3>Christie Digital Systems</h3><br />
-                        <div class=" company-logo">
-                            <img class="desktop-only" src="../images/christie.png" />
+                        <div class="company-logo col-md-4">
+                            <img class="hidden-xs" src="../images/christie.png" />
                         </div>
-                        <div class=" lead company-info">
+                        <div class="lead company-info col-md-8">
                             <div class="company-position">
                                 Application Software Developer<br />
                             </div>
@@ -139,10 +139,10 @@
                     
                     <div class="company">
                         <h3>Katlyn Vehicle Systems</h3><br />
-                        <div class="company-logo">
-                            <img class="desktop-only" src="../images/katlyn.jpg" />
+                        <div class="company-logo col-md-4">
+                            <img class="hidden-xs" src="../images/katlyn.jpg" />
                         </div>
-                        <div class=" lead company-info">
+                        <div class=" lead company-info col-md-8">
                             <div class="company-position">
                                 Web Developer<br />
                             </div>
@@ -199,22 +199,22 @@
 
                     <div class="buttons-row">
                         <div class="social-roll">
-                            <a type="button" href="mailto:me@samiya.ca"><img src="../images/mail.png"/></a>
+                            <a type="button" href="mailto:me@samiya.ca"><img class="social-icon" src="../images/mail.png"/></a>
                         </div>
                         <div class="social-roll">
-                            <a type="button" href="https://www.linkedin.com/in/samiyaakhtar"><img id="linkedin" src="../images/linkedin.png"/></a>
+                            <a type="button" href="https://www.linkedin.com/in/samiyaakhtar"><img class="social-icon" id="linkedin" src="../images/linkedin.png"/></a>
                         </div>
                         <div class="social-roll">
                             <a type="button" href="https://github.com/samiyaakhtar">
-                            <img src="../images/github.png"/></a>
+                            <img class="social-icon" src="../images/github.png"/></a>
                         </div>
                         <div class="social-roll">
                             <a type="button" href="https://twitter.com/SamiyaAkhtar">
-                            <img id="imgTwitter" src="../images/twitter.png" onhover="showimage('imgTwitter', '../images/twitter.png')"/></a>
+                            <img class="social-icon" id="imgTwitter" src="../images/twitter.png" onhover="showimage('imgTwitter', '../images/twitter.png')"/></a>
                         </div>
                         <div class="social-roll">
                             <a type="button" href="http://instagram.com/samiyaakhtar">
-                            <img id="imgInstagram" src="../images/instagram.png"/></a>
+                            <img class="social-icon" id="imgInstagram" src="../images/instagram.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -278,18 +278,6 @@
             'slow');
     });
 
-    function isMobile() {
-        try{ document.createEvent("TouchEvent"); return true; }
-        catch(e){ return false; }
-    }
-
-    if(isMobile()) {
-        var elems = document.getElementsByTagName('desktop-only'), i;
-        for (i in elems) {
-            
-            elems[i].innerHTML = '';
-            
-        }
-    }
+    
 
 </script>

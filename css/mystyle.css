@@ -52,17 +52,6 @@ hr {
     width: 65%;
 }
 
-//small screen sizes
-@media (max-width: 991px) {
-    .mobile-only {
-        display:block !important;
-    }
- 
-    .desktop-only {
-        display:none !important;
-    }
-}
-
 ul li { 
     color: #0BACD6;
 }
@@ -166,7 +155,7 @@ ul li span {
     float: left;
 }
 .company-info {
-    width: 60%;
+    /*width: 60%;*/
     height: 100%;
     text-align: left;
     position: relative;
@@ -241,9 +230,8 @@ ul li span {
 }
 
 .social-icon {
-}
-.social-icon:hover {
-    opacity: 1; /* css standard */
+    width: 50px;
+    height: 50px;
 }
 
 .samiya-header {
