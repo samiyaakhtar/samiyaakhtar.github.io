@@ -86,7 +86,7 @@ ul li span {
     text-align: left;
     display: inline-block;
     max-width: 400px;
-    min-width: 250px;
+    /*min-width: 250px;*/
 }
 
 .graph-language {
@@ -120,7 +120,7 @@ ul li span {
 
 .graph-vertical {
     border-radius: 3px;
-    height: 245px;
+    height: 272px;
     width: 5px;
     background-color: #0BACD6;
     text-align: right;
@@ -147,7 +147,7 @@ ul li span {
     overflow: visible;
     float: left;
     display: inline-block;
-    padding-left: 33px;
+    padding-left: 60px;
 }
 
 .company-logo {
