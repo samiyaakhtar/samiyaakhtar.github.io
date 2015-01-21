@@ -147,7 +147,9 @@ ul li span {
     overflow: visible;
     float: left;
     display: inline-block;
-    padding-left: 60px;
+    /*padding-left: 60px;
+    padding-right: 60px;*/
+
 }
 
 .company-logo {
@@ -216,7 +218,7 @@ ul li span {
 }
 .left-center {
     text-align: left;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     white-space: initial;
     word-wrap: break-word;
 }
