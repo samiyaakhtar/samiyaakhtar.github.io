@@ -73,7 +73,6 @@ ul li span {
 }
 
 .graph-left {
-    /*width: 20%;*/
     height: 100%;
     text-align: right;
     display: inline-block;
@@ -82,12 +81,10 @@ ul li span {
 }
 
 .graph-right {
-    /*width: 80%;*/
     height: 100%;
     text-align: left;
     display: inline-block;
     max-width: 400px;
-    /*min-width: 250px;*/
 }
 
 .graph-language {
@@ -148,13 +145,9 @@ ul li span {
     overflow: visible;
     float: left;
     display: inline-block;
-    /*padding-left: 60px;
-    padding-right: 60px;*/
-
 }
 
 .company-logo {
-    /*width: 30%;*/
     height: 100%;
     text-align: right;
     display: inline-block;
@@ -166,26 +159,26 @@ ul li span {
     max-width: 330px;
 }
 .company-info {
-    /*width: 60%;*/
     height: 100%;
     text-align: left;
     position: relative;
-    /*left: 50px;*/
-    padding-left: 5%;
+    padding-left: 35px;
     display: inline-block;
     word-wrap: break-word;
     white-space: initial;
     overflow-x: hidden;
     overflow-y: auto;
-    /*white-space: pre;*/
     font-size: 18px;
-    /*padding-right: 220px;*/
-    padding-right: 10%;
+    /*padding-right: 10%;*/
     float: left;
     max-width: 700px;
 }
 .company-position {
     color: #0BACD6;
+}
+.company-details {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .resume-div {
     white-space: nowrap;
