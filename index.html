@@ -29,11 +29,11 @@
             <div id="background">
 
                 <div id="divInformation" class="information-text">
-                    <a id="btnAbout">About</a>&nbsp;&nbsp;
+                    <a id="btnAbout" href="#divAbout">About</a>&nbsp;&nbsp;
                     <a id="btnCourses" style="display: none;">Courses&nbsp;&nbsp;</a>
                     <!-- <a href="#interests" id="btnInterests">Interests&nbsp;&nbsp;</a> -->
-                    <a id="btnWE">Work Experience</a>&nbsp;&nbsp;
-                    <a id="btnContact">Contact</a>&nbsp;&nbsp;
+                    <a id="btnWE" href="#divWE">Work Experience</a>&nbsp;&nbsp;
+                    <a id="btnContact" href="#divContact">Contact</a>&nbsp;&nbsp;
                 </div><br />
 
                 <h1>Samiya Akhtar</h1>
@@ -47,7 +47,7 @@
                     <h2>About</h2>
                     <div class="outer-center">
                         <div class="left-center">
-                            I'm a 4th year software engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am passionate about coding, exploring and meeting new people. I occasionally like to cook Arabian, Italian and South Asian food. I have experience with coding in the following languages:
+                            I'm a 4th year software engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am passionate about coding, exploring and meeting new people. I have experience with coding in the following languages:
 
                             <div class="graph-outer">
                                 <div class="graph-left">
@@ -75,6 +75,9 @@
                     <h2>Courses</h2>
                     <div class="outer-center">
                         <div class="left-center">
+                            CS 449: Human Computer Interaction<br />
+                            ECE 454: Distrubed Systems<br />
+                            ECE 358: Computer Networks<br />
                             CS 458: Computer Security and Privacy<br />
                             SE 463: Software Requirements and Specifications<br />
                             CS 343: Concurrent and Parallel Programming<br />
@@ -314,32 +317,6 @@
 </html>
 
 <script type="text/javascript">
-    $("#btnAbout").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divAbout").offset().top},
-            'slow');
-    });
-    $("#btnCourses").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divCourses").offset().top},
-            'slow');
-    });
-    $("#btnWE").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divWE").offset().top},
-            'slow');
-    });
-    $("#btnContact").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divContact").offset().top},
-            'slow');
-    });
-    $("#btnInterests").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#divInterests").offset().top},
-            'slow');
-    });
-
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
