@@ -355,6 +355,7 @@ article {
     display: inline-block;
     padding-top: 30px;
     font-weight: 300;
+    /*display: none;*/
 }
 
 .company-logo {
@@ -393,6 +394,7 @@ article {
 .company-details {
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 40px;
 }
 
 .heading {
