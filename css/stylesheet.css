@@ -299,6 +299,12 @@ article {
         flex: 0;
         background: 0 0
     }
+    .company-details td {
+        width: 0%;
+    }
+    .company-details td:nth-child(2) {
+        width: 100%;
+    }
 }
 
 .greeting {
@@ -316,6 +322,12 @@ article {
     }
 }
 
+@media screen and (max-width:600px) {
+    .name {
+        font-size: 1.9em
+    }
+}
+
 .name {
     color: #233140;
     font-weight: 300;
@@ -324,11 +336,6 @@ article {
     /*text-align: center;*/
 }
 
-@media screen and (max-width:600px) {
-    .name {
-        font-size: 1.9em
-    }
-}
 
 .company-details td {
     width: 20%;
