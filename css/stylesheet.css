@@ -283,10 +283,10 @@ h1, h2, h3, h4, h5, h6 {
 
 article {
     background: rgba(255, 255, 255, .4);
-    -webkit-flex-basis: 57vw;
+    -webkit-flex-basis: 64vw;
     -ms-flex-preferred-size: 57vw;
-    flex-basis: 57vw;
-    padding: 6vw;
+    flex-basis: 64vw;
+    padding: 4vw;
     z-index: 1
 }
 
@@ -347,6 +347,7 @@ article {
     float: left;
     display: inline-block;
     padding-top: 30px;
+    font-weight: 300;
 }
 
 .company-logo {
@@ -392,6 +393,7 @@ article {
     padding-bottom: 20px;
     padding-top: 20px;
     display:inline-block;
+    font-weight: 400;
 }
 
 .companyname {
