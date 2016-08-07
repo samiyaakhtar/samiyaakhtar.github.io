@@ -11,323 +11,283 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
     <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/insta.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <!-- starts here -->
+      <div class="profile">
+			<img src="images/background.JPG" alt="Samiya Akhtar">
+		</div>
 
-    <div class="container">
-        <div class="samiya-header" id="home">
-            <div id="background">
+		<article class="">
+			<!-- <h2 class="greeting">Hi, I'm</h2> -->
+            <br />
+			<h1 class="name">Samiya Akhtar</h1>
+			<h3 class="message">Software Developer at <a href="https://www.microsoft.com/en-ca/">Microsoft</a>, recent graduate from <a href="http://uwaterloo.ca">University of Waterloo</a>. </h3>
 
-                <div id="divInformation" class="information-text">
-                    <a id="btnAbout" href="#divAbout">About</a>&nbsp;&nbsp;
-                    <a id="btnCourses" style="display: none;">Courses&nbsp;&nbsp;</a>
-                    <!-- <a href="#interests" id="btnInterests">Interests&nbsp;&nbsp;</a> -->
-                    <a id="btnWE" href="#divWE">Work Experience</a>&nbsp;&nbsp;
-                    <a id="btnContact" href="#divContact">Contact</a>&nbsp;&nbsp;
-                </div><br />
+            <h4 class="message">I pronounce my name as Saa-mee-yah. My hobbies are exploring nature and discovering what this world has to offer, especially culture and food.</h4>
 
-                <h1>Samiya Akhtar</h1>
-                <p class="">Software Developer</p>
-                <br />
+            <div id="divWE" name="workexperience" style="z-index: 2;" ><br />
+                <h2 class="heading">Work Experience</h2>
 
-                <img src="images/samiya.jpg" class="circle-img" />
-
-
-                <div id="divAbout" name="about"><br />
-                    <h2>About</h2>
-                    <div class="outer-center">
-                        <div class="left-center">
-                            I'm a 4th year software engineering student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I am passionate about coding, exploring and meeting new people. I have experience with coding in the following languages:
-
-                            <div class="graph-outer">
-                                <div class="graph-left">
-                                    <div class="graph-vertical"></div>
-                                </div>
-                                <div class="graph-right">
-                                    <div class="graph-language" style="width: 250px;">C/C++</div>
-                                    <div class="graph-language" style="width: 240px;">Java</div>
-                                    <div class="graph-language" style="width: 205px;">Objective-C</div>
-                                    <div class="graph-language" style="width: 200px;">C#</div>
-                                    <div class="graph-language" style="width: 190px;">JavaScript</div>
-                                    <div class="graph-language" style="width: 175px;">Python</div>
-                                    <div class="graph-language" style="width: 150px;">Swift</div>
-                                    <div class="graph-language" style="width: 90px;">PHP</div>
-                                    <div class="graph-language" style="width: 75px;">Shell</div>
-                                    <div class="graph-language" style="width: 65px;">Ruby</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div id="divMicrosoft" class="company visible-xs">
+                        <h3>Microsoft</h3><br />
                 </div>
 
-
-                <div id="divCourses" name="courses" style="display: none;"><br /><br /><hr>
-                    <h2>Courses</h2>
-                    <div class="outer-center">
-                        <div class="left-center">
-                            CS 449: Human Computer Interaction<br />
-                            ECE 454: Distrubed Systems<br />
-                            ECE 358: Computer Networks<br />
-                            CS 458: Computer Security and Privacy<br />
-                            SE 463: Software Requirements and Specifications<br />
-                            CS 343: Concurrent and Parallel Programming<br />
-                            CS 348: Introduction to Databases<br />
-                            CS 341: Algorithms<br />
-                            CS 349: User Interfaces<br />
-                            SE 350: Operating Systems<br />
-                            SE 380: Introduction to feedback control<br />
-                            CS 240: Data structors and Algorithms<br />
-                            CS 247: Software Abstraction and Specification<br />
-                            MATH 239: Combinatorics<br />
-                            CS 241: Foundations of Sequential Programs<br />
-                            ECE 222: Digital Computers<br />
-                            SE 212: Logic and Computation<br />
-                            .. and a few others.
-
-                        </div>
-                    </div>
-                </div>
-
-
-               <!--  <div id="divInterests" name="interests" ><hr><br />
-                    <h2>Interests</h2>
-                    <div class="outer-center">
-                        <div class="left-center">
-
-                        </div>
-                    </div>
-                </div><hr> -->
-
-
-                <div id="divWE" name="workexperience"><hr><br />
-                    <h2>Work Experience</h2>
-
-                    <div id="divMicrosoft" class="company row">
-                            <h3>Microsoft</h3><br />
-                    </div>
-                    <div class="company-details">
-                        <div class="company-logo ">
-                            <img class="hidden-xs" src="images/microsoft.png" />
-                        </div>
-                        <div class="lead company-info ">
-                            <div class="company-position">
-                                Software Developer Intern<br />
+                <table width="100%" class="company-details">
+                    <tr>
+                        <td class="hidden-xs">
+                            <div class="company-logo ">
+                                <img src="images/microsoft.png" />
                             </div>
-                            <ul>
-                                <li>
-                                    <span>
-                                    Office 365 mobile development in iOS, Android and Windows Phone
-                                    </span>
-                                </li>
-
+                        </td>
+                        <td>
+                            <div class="lead company-info " style="width: 100%;">
+                                <div class="company-position">
+                                    Software Developer Intern<br />
+                                </div>
+                                <ul>
                                     <li>
                                         <span>
-                                        Worked with Cortana and iOS 9 features
+                                        Office 365 mobile development in iOS, Android and Windows Phone
                                         </span>
                                     </li>
-                            </ul>
-                            <div class="btn-group btn-group-xs " role="group" >
-                            </div>
-                        </div>
-                    </div>
 
-                    <div id="divPivotal" class="company row">
-                            <h3>Pivotal Labs</h3><br />
-                    </div>
-                    <div class="company-details">
-                        <div class="company-logo ">
-                            <img class="hidden-xs" src="images/pivotal.png" />
-                        </div>
-                        <div class="lead company-info ">
-                            <div class="company-position">
-                                Agile Software Engineer<br />
+                                        <li>
+                                            <span>
+                                            Worked with Cortana and iOS 9 features
+                                            </span>
+                                        </li>
+                                </ul>
+                                <!-- <div class="btn-group btn-group-xs " role="group" >
+                                    <button type="button" class="btn btn-default language-button">C#</button>
+                                    <button type="button" class="btn btn-default language-button">Objective-C</button>
+                                </div> -->
                             </div>
-                            <ul>
-                                <li>
-                                    <span>
-                                    iOS development for an Internet of Things application using the <a href="http://parse.com">Parse</a> framework
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Android development for internal and client projects
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="btn-group btn-group-xs " role="group" >
-                                <button type="button" class="btn btn-default language-button">Objective-C</button>
-                                <button type="button" class="btn btn-default language-button">Swift</button>
-                                <button type="button" class="btn btn-default language-button">Java</button>
-                            </div>
-                        </div>
-                    </div>
+                        </td>
+                    </tr>
+                </table>
 
-                    <div id="divChristie" class="company row">
-                        <h3>Christie Digital Systems</h3><br />
-                    </div>
-                    <div class="company-details">
-                        <div class="company-logo ">
-                            <img class="hidden-xs" src="images/christie.png" />
-                        </div>
-                        <div class="lead company-info ">
-                            <div class="company-position">
-                                Application Software Developer<br />
-                            </div>
 
-                            <ul>
-                                <li>
-                                    <span>
-                                    Added features to test pattern, warping and blending interfaces in <a href="http://www.christiedigital.com/en-us/3d/products-and-solutions/3d-projection-solutions/christie-twist/pages/default.aspx">Twist</a> and <a href="http://www.christiedigital.com/en-us/3D/products-and-solutions/3d-projection-solutions/christie-autocal/Pages/default.aspx">Autocal</a>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Created a Keystone Warping application that performs a <a href="http://en.wikipedia.org/wiki/3D_projection#Perspective_projection">perspective transform</a>
-                                    by calculating a warp factor for internal points based on corner positions
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="btn-group btn-group-xs " role="group" >
-                                <button type="button" class="btn btn-default language-button">C++</button>
-                                <button type="button" class="btn btn-default language-button">Qt</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="company row">
-                        <h3>Katlyn Vehicle Systems</h3><br />
-                    </div>
-                    <div class="company-details">
-                        <div class="company-logo ">
-                            <img class="hidden-xs" src="images/katlyn.jpg" />
-                        </div>
-                        <div class=" lead company-info ">
-                            <div class="company-position">
-                                Web Developer<br />
-                            </div>
-
-                            <ul>
-                                <li>
-                                    <span>
-                                    End-to-end system design and project management of Air Canada Cargo's iRamp documentation system
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Built a management system that would enable airlines to prioritize cargo items once they arrive at a destination
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Developed an internal messaging system for Air Canada Cargo that communicated with airport vehicles via TCP
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Created an application that provides latest location updates from airport
-                                     vehicles by collecting GPS locations; editor tools for configuration settings
-                                     like fuel, accelerometer and inspection results
-                                    </span>
-                                </li>
-                                <li>
-                                    <span>
-                                    Contributed to web and internal applications for Air Canada Cargo's work order
-                                     dispatching system operating in international airports of Canada
-                                    </span>
-                                </li>
-                            </ul>
-                            <div class="btn-group btn-group-xs " role="group" >
-                                <button type="button" class="btn btn-default language-button">C#</button>
-                                <button type="button" class="btn btn-default language-button">C++</button>
-                                <button type="button" class="btn btn-default language-button">JavaScript</button>
-                                <button type="button" class="btn btn-default language-button">HTML</button>
-                                <button type="button" class="btn btn-default language-button">CSS</button>
-                            </div>
-                        </div>
-                    </div>
+                <div id="divPivotal" class="company row visible-xs">
+                        <h3>Pivotal Labs</h3><br />
                 </div>
+                <table width="100%" class="company-details">
+                    <tr>
+                        <td class="hidden-xs">
+                            <div class="company-logo ">
+                                <img src="images/pivotal.png" />
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lead company-info " style="width: 100%;">
+                                <div class="company-position">
+                                    Agile Software Engineer<br />
+                                </div>
+                                <ul>
+                                    <li>
+                                        <span>
+                                        iOS development for an Internet of Things application using the <a href="http://parse.com">Parse</a> framework
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                        Android development for internal and client projects
+                                        </span>
+                                    </li>
+                                </ul>
+                                <!-- <div class="btn-group btn-group-xs " role="group" >
+                                    <button type="button" class="btn btn-default language-button">Objective-C</button>
+                                    <button type="button" class="btn btn-default language-button">Swift</button>
+                                    <button type="button" class="btn btn-default language-button">Java</button>
+                                </div> -->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
 
-
-                <div name="contact">
-                    <div id="divContact" class="row col-xs-12"><hr><br />
-
-                        <div class="buttons-row">
-                            <div class="social-roll">
-                                <a type="button" href="mailto:me@samiya.ca"><img class="social-icon" src="images/mail.png"/></a>
-                            </div>
-                            <div class="social-roll">
-                                <a type="button" href="https://www.linkedin.com/in/samiyaakhtar"><img class="social-icon" id="linkedin" src="images/linkedin.png"/></a>
-                            </div>
-                            <div class="social-roll">
-                                <a type="button" href="https://github.com/samiyaakhtar">
-                                <img class="social-icon" src="images/github.png"/></a>
-                            </div>
-                            <div class="social-roll">
-                                <a type="button" href="https://twitter.com/SamiyaAkhtar">
-                                <img class="social-icon" id="imgTwitter" src="images/twitter.png" /></a>
-                            </div>
-                            <div class="social-roll">
-                                <a type="button" href="http://instagram.com/samiyaakhtar">
-                                <img class="social-icon" id="imgInstagram" src="images/instagram.png"/></a>
-                            </div>
-                        </div>
-                        <div style="font-size: 11px;">Copyright &copy; 2016 Samiya Akhtar<div>
-                    </div>
-
+                <div id="divChristie" class="company row visible-xs">
+                    <h3>Christie Digital Systems</h3><br />
                 </div>
+                <!-- <div class="company-details">
+                    <div class="company-logo ">
+                        <img class="hidden-xs" src="images/christie.png" />
+                    </div>
+                    <div class="lead company-info ">
+                        <div class="company-position">
+                            Application Software Developer<br />
+                        </div>
 
+                        <ul>
+                            <li>
+                                <span>
+                                Added features to test pattern, warping and blending interfaces in <a href="http://www.christiedigital.com/en-us/3d/products-and-solutions/3d-projection-solutions/christie-twist/pages/default.aspx">Twist</a> and <a href="http://www.christiedigital.com/en-us/3D/products-and-solutions/3d-projection-solutions/christie-autocal/Pages/default.aspx">Autocal</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                Created a Keystone Warping application that performs a <a href="http://en.wikipedia.org/wiki/3D_projection#Perspective_projection">perspective transform</a>
+                                by calculating a warp factor for internal points based on corner positions
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="btn-group btn-group-xs " role="group" >
+                            <button type="button" class="btn btn-default language-button">C++</button>
+                            <button type="button" class="btn btn-default language-button">Qt</button>
+                        </div>
+                    </div>
+                </div> -->
 
+                <table width="100%" class="company-details">
+                    <tr>
+                        <td class="hidden-xs">
+                            <div class="company-logo ">
+                                <img src="images/christie.png" />
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lead company-info " style="width: 100%;">
+                                <div class="company-position">
+                                    Application Software Developer<br />
+                                </div>
 
-                <!-- <br /><br /><div class="lead" style="margin-top: 120px;">This website is under development!</div> -->
+                                <ul>
+                                    <li>
+                                        <span>
+                                        Added features to test pattern, warping and blending interfaces in <a href="http://www.christiedigital.com/en-us/3d/products-and-solutions/3d-projection-solutions/christie-twist/pages/default.aspx">Twist</a> and <a href="http://www.christiedigital.com/en-us/3D/products-and-solutions/3d-projection-solutions/christie-autocal/Pages/default.aspx">Autocal</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                        Created a Keystone Warping application that performs a <a href="http://en.wikipedia.org/wiki/3D_projection#Perspective_projection">perspective transform</a>
+                                        by calculating a warp factor for internal points based on corner positions
+                                        </span>
+                                    </li>
+                                </ul>
+                                <!-- <div class="btn-group btn-group-xs " role="group" >
+                                    <button type="button" class="btn btn-default language-button">C++</button>
+                                    <button type="button" class="btn btn-default language-button">Qt</button>
+                                </div> -->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="company row visible-xs">
+                    <h3>Katlyn Vehicle Systems</h3><br />
+                </div>
+                <table width="100%" class="company-details">
+                    <tr>
+                        <td class="hidden-xs">
+                            <div class="company-logo ">
+                                <img src="images/katlyn.jpg" />
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lead company-info " style="width: 100%;">
+                                <div class="company-position">
+                                    Web Developer<br />
+                                </div>
+
+                                <ul>
+                                    <li>
+                                        <span>
+                                        End-to-end system design and project management of Air Canada Cargo's iRamp documentation system
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                        Built a management system that would enable airlines to prioritize cargo items once they arrive at a destination
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                        Developed an internal messaging system for Air Canada Cargo that communicated with airport vehicles via TCP
+                                        </span>
+                                    </li>
+                                </ul>
+                                <!-- <div class="btn-group btn-group-xs " role="group" >
+                                    <button type="button" class="btn btn-default language-button">C#</button>
+                                    <button type="button" class="btn btn-default language-button">C++</button>
+                                    <button type="button" class="btn btn-default language-button">JavaScript</button>
+                                    <button type="button" class="btn btn-default language-button">HTML</button>
+                                    <button type="button" class="btn btn-default language-button">CSS</button>
+                                </div> -->
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
             </div>
 
 
-        </div>
-      <!-- Ends here -->
 
-    <!-- <div class="container"> -->
-
-        <!-- <div class="starter-template">
-            <h1>Samiya Akhtar</h1>
-            <p class="lead">This website is under development!</p>
-        </div> -->
-
-    </div><!-- /.container -->
+            <h2 class="heading">Recent Photography</h2>
+			<div id="instagram"></div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+            <div name="contact">
+                <div id="divContact" class="row col-xs-12"><br />
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+                    <div class="buttons-row">
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="mailto:me@samiya.ca"><img class="social-icon" src="images/mail.png"/></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://www.linkedin.com/in/samiyaakhtar"><img class="social-icon" id="linkedin" src="images/linkedin.png"/></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://github.com/samiyaakhtar">
+                            <img class="social-icon" src="images/github.png"/></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://twitter.com/SamiyaAkhtar">
+                            <img class="social-icon" id="imgTwitter" src="images/twitter.png" /></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="http://instagram.com/samiyaakhtar">
+                            <img class="social-icon" id="imgInstagram" src="images/instagram.png"/></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="copyright">Copyright (c) 2016 Samiya Akhtar</div>
+		</article>
   </body>
 
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/instafeed.min.js"></script>
 </html>
 
 <script type="text/javascript">
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  function sendClicked() {
+    alert("Thank you for contacting me!");
+  }
 
-      ga('create', 'UA-64057833-1', 'auto');
-      ga('send', 'pageview');
+    var feed = new Instafeed({
+        target: 'instagram',
+        get: 'user',
+        userId: '34368596',
+        accessToken: '34368596.1677ed0.6fec4b85e50846868279540763d77b1d',
+        sortBy: 'most-recent',
+		resolution: 'standard_resolution',
+        limit: 8,
+        after: function() {
+		}
+    });
 
-    </script>
+    window.onload = function() {
+        feed.run();
+    };
 
 </script>
