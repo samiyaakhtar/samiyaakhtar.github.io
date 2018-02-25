@@ -40,9 +40,10 @@
 
                     <form action="https://formspree.io/samiyaandazhar@gmail.com"
                           method="POST">
-                          <input type="text" placeholder="Your name" name="name"/>
-                          <textarea name="message" placeholder="RSVP or Send a message to Samiya and Azhar..."></textarea>
+                          <input type="text" placeholder="Your email" name="name"/>
+                          <textarea name="message" placeholder="RSVP or Send a message to Samiya and Azhar"></textarea>
                           <br />
+                          <input type="text" name="_gotcha" style="display:none" />
                           <button onclick="sendClicked()" type="submit">Send</button>
                           <input type="hidden" name="_next" value="#contact" />
                     </form>
