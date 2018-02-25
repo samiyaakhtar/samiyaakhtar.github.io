@@ -228,6 +228,48 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
 }
 
+#background {
+    width: 100%;
+    height: 100%;
+    /*position: fixed;*/
+    left: 0px;
+    top: 0px;
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+.sidebar {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    /*opacity: 0.4;*/
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.save_the_date {
+    font-size: 15px;
+    font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 30px 20px 20px 25px;
+    opacity: 0.7;
+}
+
+.save_the_date_info {
+    font-size: 10px;
+    font: 200 45px/0.8 'Cookie', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 25px 15px 15px 15px;
+    line-height: 1.5em;
+    opacity: 0.7;
+}
+
 .profile {
     background-image: url(../images/background.JPG);
     background-repeat: no-repeat;
@@ -599,4 +641,45 @@ article {
 .social-popout img:hover {
     margin: 0px;
     box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+
+/* textbox */
+textarea, input {
+    /*text-align: center;*/
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    margin: 5px;
+    opacity: 0.6;
+    /*border: 2px solid black;*/
+    border: none;
+
+        transition: all .5s linear;
+    -moz-transition: all .5s ease-out; // for mozilla
+    -o-transition: all .5s ease-out; // for opera
+    -webkit-transition: all .5s ease-out; //for webkit, chrome or safari
+}
+textarea:focus, input:focus {
+
+    border: 2px solid #0266C8;
+    transition: all .5s linear;
+    -moz-transition: all .5s ease-in; // for mozilla
+    -o-transition: all .5s ease-in; // for opera
+    -webkit-transition: all .5s ease-in; //for webkit, chrome or safari
+
+}
+button {
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    opacity: 0.6;
+    float: right;
+    margin: 5px;
+}
+button:hover {
+    /*background-color: grey;
+    color: white;*/
+    opacity: 0.9;
 }
