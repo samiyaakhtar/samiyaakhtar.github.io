@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <title>Samiya Akhtar</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link href="css/insta.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="profile">
+        <img src="images/background.JPG" alt="Samiya Akhtar">
+    </div>
+
+    <article class="">
+        <!-- <h2 class="greeting">Hi, I'm</h2> -->
+        <br />
+        <h1 class="name">Samiya Akhtar</h1>
+        <h3 class="message">Software Developer</h3>
+        <h3 class="message">Hobbies: Photography, Bird Watching, Stargazing, Travelling, Cooking, Painting</h3>
+        <br />
+
+        <div id="divWE" name="workexperience" style="z-index: 2;"><br />
+            <h2 class="heading">Work Experience</h2>
+
+            <div id="divMicrosoft" class="company visible-xs">
+                <h3>Microsoft</h3><br />
+            </div>
+
+            <h2 class="heading">Recent Photography</h2>
+            <div id="instagram"></div>
+
+
+            <div name="contact">
+                <div id="divContact" class="row col-xs-12"><br />
+
+                    <div class="buttons-row">
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="mailto:me@samiya.ca"><img class="social-icon"
+                                    src="images/mail.png" /></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://www.linkedin.com/in/samiyaakhtar"><img
+                                    class="social-icon" id="linkedin" src="images/linkedin.png" /></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://github.com/samiyaakhtar">
+                                <img class="social-icon" src="images/github.png" /></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="https://twitter.com/SamiyaAkhtar">
+                                <img class="social-icon" id="imgTwitter" src="images/twitter.png" /></a>
+                        </div>
+                        <div class="social-roll">
+                            <a type="button" class="social-a" href="http://instagram.com/samiyaakhtar">
+                                <img class="social-icon" id="imgInstagram" src="images/instagram.png" /></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </article>
+</body>
+
+<!-- Bootstrap core JavaScript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/instafeed.min.js"></script>
+
+</html>
+
+<script type="text/javascript">
+
+    function sendClicked() {
+        alert("Thank you for contacting me!");
+    }
+
+    var feed = new Instafeed({
+        target: 'instagram',
+        get: 'user',
+        userId: '34368596',
+        accessToken: '34368596.0d5ca4e.b8a8b6a20cb04e23b67fa023505539a5',
+        sortBy: 'most-recent',
+        resolution: 'standard_resolution',
+        limit: 8,
+        after: function () {
+        }
+    });
+
+    window.onload = function () {
+        feed.run();
+    };
+
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-64057833-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
