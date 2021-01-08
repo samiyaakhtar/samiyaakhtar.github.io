@@ -2659,6 +2659,8 @@
 
 	.spotlight h3 {
 		color: #FFF;
+		font-family: fantasy;
+		font-size: x-large;
 	}
 
 		.spotlight > * {
@@ -3047,6 +3049,8 @@
 			position: relative;
 			padding-bottom: .75rem;
 			color: #fff;
+			font-family: fantasy;
+			font-size: xx-large;
 		}
 
 			.wrapper > header h2:after {
@@ -3129,6 +3133,8 @@
 
 			.wrapper.style2 header h2 {
 				color: #FFF;
+				font-family: fantasy;
+				font-size: x-large;
 			}
 
 				.wrapper.style2 header h2:after {
