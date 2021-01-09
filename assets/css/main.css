@@ -2328,6 +2328,7 @@
 
 		.gallery .image.fit {
 			margin: 0;
+			padding: 2px;
 		}
 
 		.gallery > * {
