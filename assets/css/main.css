@@ -1784,7 +1784,8 @@
 	}
 
 	a {
-		color: #54a354;
+		/* color: #54a354; */
+		color: rgba(255, 255, 255, 0.75);
 	}
 
 	strong, b {
@@ -2660,8 +2661,8 @@
 
 	.spotlight h3 {
 		color: #FFF;
-		font-family: fantasy;
-		font-size: x-large;
+		font-family: 'Poppins';
+		font-size: large;
 	}
 
 		.spotlight > * {
@@ -3050,8 +3051,8 @@
 			position: relative;
 			padding-bottom: .75rem;
 			color: #fff;
-			font-family: fantasy;
-			font-size: xx-large;
+			font-family: 'Poppins';
+			font-size: large;
 		}
 
 			.wrapper > header h2:after {
@@ -3063,7 +3064,9 @@
 				left: 0;
 				width: 10%;
 				height: 1px;
-				background-color: rgba(0, 0, 0, 0.125);
+				/* background-color: rgba(0, 0, 0, 0.125);
+				 */
+				 background-color: rgb(255, 255, 255, 0.15);
 			}
 
 		.wrapper > header p {
@@ -3076,6 +3079,10 @@
 
 		.wrapper > header.special {
 			padding: 4rem 2rem;
+		}
+		.wrapper > header.special h1 {
+			font-size: xx-large;
+			color: #fff;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3134,8 +3141,8 @@
 
 			.wrapper.style2 header h2 {
 				color: #FFF;
-				font-family: fantasy;
-				font-size: x-large;
+				font-family: 'Poppins';
+				font-size: large;
 			}
 
 				.wrapper.style2 header h2:after {
